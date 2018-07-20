@@ -28,4 +28,8 @@ extern class Chart {
     function Pie(data:Array<SegmentData>, ?options:DoughnutPieOptions):PieChart;
 
     function Doughnut(data:Array<SegmentData>, ?options:DoughnutPieOptions):DoughnutChart;
+
+    function update():Void;
+
+    var data:Dynamic;
 }
